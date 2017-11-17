@@ -17,6 +17,7 @@ static void print_help()
 	char git_version_buf[100]={0};
 	strncpy(git_version_buf,gitversion,10);
 
+	printf("------------");
 	printf("tinyFecVPN\n");
 	printf("git version: %s    ",git_version_buf);
 	printf("build date: %s %s\n",__DATE__,__TIME__);
